@@ -87,7 +87,7 @@ Window{
         anchors.left: onButton.right
         width: 50
         height: 50
-        color: "black"
+        color: "red"
         MouseArea{
             anchors.fill: parent
             onClicked: trigger = false
