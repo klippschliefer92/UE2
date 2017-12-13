@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>DialControl.qml</file>
+        <file>Dial.qml</file>
+        <file>ProgressCircle.qml</file>
+        <file>tacho.png</file>
+        <file>kombi_hintergrund.png</file>
+    </qresource>
+</RCC>
