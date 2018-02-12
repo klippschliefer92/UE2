@@ -5,7 +5,13 @@
         <file>DialControl.qml</file>
         <file>Dial.qml</file>
         <file>ProgressCircle.qml</file>
-        <file>tacho.png</file>
         <file>kombi_hintergrund.png</file>
+        <file>tacho.png</file>
+        <file>alarm.wav</file>
+        <file>placeholderImage.png</file>
+        <file>Manuell2.png</file>
+        <file>autopilot.png</file>
+        <file>alarmsound.mp3</file>
+        <file>warning.wav</file>
     </qresource>
 </RCC>

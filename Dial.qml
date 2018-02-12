@@ -162,7 +162,7 @@ Rectangle{
                     colorCircle: "#f06d00"
                     colorBackground: "#ea1f2a"
                     arcBegin: kwAngle
-                    arcEnd: 89
+                    arcEnd: 90
                     lineWidth: outerRing.width * 0.03
                 }
 
@@ -187,7 +187,7 @@ Rectangle{
                     size: outerRing.width * 0.9
                     colorCircle: "green"
                     colorBackground: "#ea1f2a"
-                    arcBegin: 91
+                    arcBegin: 90
                     arcEnd: kwAngle2
                     lineWidth: outerRing.width * 0.03
                 }
@@ -233,7 +233,7 @@ Rectangle{
                     anchors.horizontalCenter: parent.horizontalCenter
                     anchors.topMargin: parent.width * 0.02
                     color: "white"
-                    font.pointSize: outerRing.width * 0.1
+                    font.pointSize: outerRing.width * 0.07
                 }
 
                 Text {
@@ -243,7 +243,7 @@ Rectangle{
                     anchors.topMargin: parent.height *-0.02
                     anchors.horizontalCenter: parent.horizontalCenter
                     color: "white"
-                    font.pointSize: outerRing.width * 0.03
+                    font.pointSize: outerRing.width * 0.02
                 }
 
 
@@ -264,7 +264,7 @@ Rectangle{
                             anchors.centerIn: parent
                             z:2
                             color: "white"
-                            font.pointSize: 14
+                            font.pointSize: 7
                         }
 
                         ProgressBar {
@@ -304,13 +304,13 @@ Rectangle{
                     anchors.bottom: parent.bottom
                     anchors.bottomMargin: parent.height * 0.22
                     color: "white"
-                    font.pointSize: outerRing.height * 0.07
+                    font.pointSize: outerRing.height * 0.02
                 }
 
                 Text {
                     id: kmText
                     color: "white"
-                    font.pointSize: outerRing.height * 0.03
+                    font.pointSize: outerRing.height * 0.01
                     text: "Reichweite in km"
                     anchors.horizontalCenter: parent.horizontalCenter
                     anchors.top: rangeText.bottom

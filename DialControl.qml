@@ -69,30 +69,19 @@ Window{
         }
     }
 
-    Rectangle{
-        id: onButton
-        y:200
-        width: 50
-        height: 50
-        color: "green"
-        MouseArea{
-            anchors.fill: parent
-            onClicked: trigger = true
-        }
-    }
 
 
     Rectangle{
         y:200
-        anchors.left: onButton.right
         width: 50
         height: 50
-        color: "red"
+        color: "blue"
         MouseArea{
             anchors.fill: parent
-            onClicked: trigger = false
+            onClicked: velocitytrigger = true
         }
     }
+
 
 
 
